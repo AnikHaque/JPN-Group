@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className="legal bg-gray-400 py-4 text-center">
+      <div className="legal bg-gray-800 py-4 text-center">
         <span>
           © 2024 JPN GROUP. Designed & Developed By{" "}
           <span className="text-[#27ae60]">Goinnovior Limited</span>.
