@@ -13,46 +13,50 @@ const Footer = () => {
               <h1>Do You Have Questions ?</h1>
               <p>We'll help you to grow your career and growth.</p>
             </div>
-            <button className="btn5">Contact Us Today</button>
+            <button className="btn5 ml-[700px]">Contact Us Today</button>
           </div>
         </div>
       </section>
 
-      <footer>
-        <div className="container">
+      <footer className="bg-gray-800">
+        <div className="container py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="box">
             <div className="logo">
-              <img src={logo1} alt="" />
+              <img src={logo1} alt="Logo" />
               <h2>Do You Need Help With Anything?</h2>
               <p>
-                Receive updates, hot deals, tutorials, discounts sent straignt
+                Receive updates, hot deals, tutorials, discounts sent straight
                 in your inbox every month
               </p>
-
-              <div className="input flex">
-                <input type="text" placeholder="Email Address" />
-                <button className="bg-[#27ae60] text-white p-4 rounded-md ml-2">
-                  Subscribe
-                </button>
-              </div>
+            </div>
+            <div className="input flex">
+              <input
+                type="text"
+                placeholder="Email Address"
+                className="text-black w-2/4 p-2 rounded-l-md focus:outline-none"
+              />
+              <button className="bg-[#27ae60] text-white p-2 rounded-r-md">
+                Subscribe
+              </button>
             </div>
           </div>
 
-          {footer.map((val) => (
-            <div className="box">
+          {footer.map((val, index) => (
+            <div key={index} className="box">
               <h3>{val.title}</h3>
               <ul>
-                {val.text.map((items) => (
-                  <li> {items.list} </li>
+                {val.text.map((items, idx) => (
+                  <li key={idx}>{items.list}</li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
       </footer>
-      <div className="legal">
+
+      <div className="legal bg-gray-400 py-4 text-center">
         <span>
-          © 2024 JPN GROUP. Designd & Developed By{" "}
+          © 2024 JPN GROUP. Designed & Developed By{" "}
           <span className="text-[#27ae60]">Goinnovior Limited</span>.
         </span>
       </div>
