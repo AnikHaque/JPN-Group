@@ -105,7 +105,7 @@ const HeroSlider = () => {
           >
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="container relative z-10 h-full flex flex-col justify-center">
-              <div className="text-center mt-20">
+              <div className="text-center">
                 <h1 className="text-5xl md:text-6xl lg:text-9xl font-bold  mb-4">
                   <Typewriter text={slide.title} className="text-9xl" />
                 </h1>
