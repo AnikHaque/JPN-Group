@@ -1,10 +1,22 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
+  position: relative;
+  background-image: url("https://main.wpresidence.net/wp-content/uploads/2024/01/wpresidece-header.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 90vh;
   width: 100%;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 1; /* Ensure the overlay is above the background image */
 }
 .hero .container {
   padding-top: 15%;
