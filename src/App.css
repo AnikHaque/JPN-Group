@@ -13,11 +13,6 @@ body {
   margin: auto;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 a {
   text-decoration: none;
   color: #000;
