@@ -160,7 +160,7 @@ const Header = () => {
             ))}
           </div>
           <div>
-            <button className="btn1">Brochure</button>
+            <button className=" bg-red-500">Brochur</button>
           </div>
         </div>
       </header>
