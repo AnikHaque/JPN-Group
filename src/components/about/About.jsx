@@ -3,6 +3,7 @@ import Back from "../common/Back";
 import Heading from "../common/Heading";
 import img from "../images/about.jpg";
 import "./about.css";
+import Basic from "../basic/Basic";
 
 const About = () => {
   return (
