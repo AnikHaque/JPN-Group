@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Visit the East",
+    "excerpt": "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+    "content": "Full content of the blog post goes here. This is a detailed description of the blog post.",
+    "category": "traveling",
+    "date": "2020-12-28",
+    "author": "John Doe",
+    "authorBio": "John is an avid traveler and blogger who loves sharing his adventures.",
+    "image": "https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+  },
+  {
+    "id": 2,
+    "title": "Simple is better",
+    "excerpt": "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+    "content": "Full content of the blog post goes here. This is a detailed description of the blog post.",
+    "category": "traveling",
+    "date": "2020-12-28",
+    "author": "Jane Smith",
+    "authorBio": "Jane is a minimalist who writes about the beauty of simplicity.",
+    "image": "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+    "id": 3,
+    "title": "Film It!",
+    "excerpt": "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.",
+    "content": "Full content of the blog post goes here. This is a detailed description of the blog post.",
+    "category": "traveling",
+    "date": "2020-12-28",
+    "author": "Mark Lee",
+    "authorBio": "Mark is a filmmaker who travels the world capturing stunning visuals.",
+    "image": "https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  }
+]
