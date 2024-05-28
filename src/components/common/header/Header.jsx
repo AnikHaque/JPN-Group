@@ -160,7 +160,9 @@ const Header = () => {
             ))}
           </div>
           <div>
-            <button className="bg-green-500">Brochure</button>
+            <button className="bg-[#27ae60] text-white p-4 rounded-md">
+              Brochure
+            </button>
           </div>
         </div>
       </header>

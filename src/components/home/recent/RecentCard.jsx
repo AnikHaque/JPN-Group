@@ -11,15 +11,15 @@ const RecentCard = () => {
     switch (filter) {
       case "ongoing":
         return list.filter((item) => item.category === "Ongoing");
-      case "pending":
-        return list.filter((item) => item.category === "Pending");
+      case "upcoming":
+        return list.filter((item) => item.category === "Upcoming");
       case "completed":
         return list.filter((item) => item.category === "Completed");
       case "category1":
         return list.filter(
           (item) =>
             item.category === "Ongoing" ||
-            item.category === "Pending" ||
+            item.category === "Upcoming" ||
             item.category === "Completed"
         );
       case "all":
@@ -34,9 +34,8 @@ const RecentCard = () => {
       <div className="buttons-container">
         <div className="buttons">
           <button onClick={() => setFilter("ongoing")}>Ongoing</button>
-          <button onClick={() => setFilter("pending")}>Pending</button>
+          <button onClick={() => setFilter("upcoming")}>Upcoming</button>
           <button onClick={() => setFilter("completed")}>Completed</button>
-          <button onClick={() => setFilter("category1")}>Category 1</button>
           <button onClick={() => setFilter("all")}>All</button>
         </div>
       </div>
@@ -64,7 +63,7 @@ const RecentCard = () => {
                             ? "#ff98001a"
                             : category === "Ongoing"
                             ? "#007bff1a"
-                            : category === "Pending"
+                            : category === "Upcoming"
                             ? "#ffc1071a"
                             : category === "Completed"
                             ? "#28a7451a"
@@ -76,7 +75,7 @@ const RecentCard = () => {
                             ? "#ff9800"
                             : category === "Ongoing"
                             ? "#007bff"
-                            : category === "Pending"
+                            : category === "Upcoming"
                             ? "#ffc107"
                             : category === "Completed"
                             ? "#28a745"
