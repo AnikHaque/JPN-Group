@@ -11,7 +11,7 @@ import {
   FaWhatsapp,
   FaAngleDown,
 } from "react-icons/fa";
-
+import logo1 from "../../../assets/logo1.png";
 const Header = () => {
   const [dropdownServices, setDropdownServices] = useState(false);
   const [dropdownRecruitment, setDropdownRecruitment] = useState(false);
@@ -92,9 +92,9 @@ const Header = () => {
 
       {/* Bottom Row for Navigation */}
       <header className="bg-white shadow-md z-50">
-        <div className="container mx-auto flex items-center justify-between h-full py-4 px-4">
+        <div className="container mx-auto flex items-center justify-between h-full py-1 px-4">
           <div className="logo">
-            <img src="/images/logo.png" alt="Logo" className="w-32" />
+            <img src={logo1} alt="Logo" className="w-40" />
           </div>
           <div className="nav flex space-x-8">
             {nav.map((item, index) => (

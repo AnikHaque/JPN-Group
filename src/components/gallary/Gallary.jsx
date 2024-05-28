@@ -1,101 +1,81 @@
 import React from "react";
+import img from "../images/about.jpg";
+import img1 from "../../assets/house1 (1).jpeg";
+import img2 from "../../assets/house1 (14).jpeg";
+import img3 from "../../assets/house2.jpeg";
+import img4 from "../../assets/house3.jpeg";
+import img5 from "../../assets/house4(4).jpeg";
+import img6 from "../../assets/house1 (5).jpeg";
+import img7 from "../../assets/house1 (6).jpeg";
+import img8 from "../../assets/house1 (7).jpeg";
+import img9 from "../../assets/house1 (8).jpeg";
+import img10 from "../../assets/house1 (9).jpeg";
+import img11 from "../../assets/house1 (10).jpeg";
+import img12 from "../../assets/house1 (11).jpeg";
+import Back from "../common/Back";
 
 const Gallary = () => {
   return (
     <div>
-      <h1 className="text-5xl font-semibold text-center mt-10 mb-10">
-        Our Photos
-      </h1>
-      <div className="container mx-auto p-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <Back
+        name="Gallary"
+        title="Our Photos - Our memorable Pictrures"
+        cover={img}
+      />
+      <div className="container mx-auto p-4 ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20">
           <div className="grid gap-4">
             <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://upload.wikimedia.org/wikipedia/commons/0/03/Kashi_Vishwanath_Temple_Banaras.jpg"
-                alt=""
-              />
+              <img className="h-auto max-w-full rounded-lg" src={img1} alt="" />
             </div>
             <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://pbs.twimg.com/media/FGRnUzPVEAAbqM8?format=jpg&name=large"
-                alt=""
-              />
+              <img className="h-auto max-w-full rounded-lg" src={img2} alt="" />
             </div>
             <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://pbs.twimg.com/media/FGRnNpAVUAYqRYv?format=jpg&name=large"
-                alt=""
-              />
+              <img className="h-auto max-w-full rounded-lg" src={img3} alt="" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img4} alt="" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img5} alt="" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img6} alt="" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img7} alt="" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img8} alt="" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src={img9} alt="" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="https://pbs.twimg.com/media/FGRnP_TUUAAttG3?format=jpg&name=large"
+                src={img10}
                 alt=""
               />
             </div>
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="https://i.pinimg.com/originals/c0/7d/17/c07d17d7ca0b9f39f5aded4b6dca8f02.jpg"
+                src={img11}
                 alt=""
               />
             </div>
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg/1280px-Benares-_The_Golden_Temple%2C_India%2C_ca._1915_%28IMP-CSCNWW33-OS14-66%29.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://www.jagranimages.com/images/newimg/27072020/27_07_2020-shri-kashi-vishwanath-temple_20557350.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://www.jansatta.com/wp-content/uploads/2021/12/Kashi-Vishwanath-Mandir.png?w=1024"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://staticimg.amarujala.com/assets/images/2021/11/07/750x506/kashi-vishwanath-dham_1636258507.jpeg?w=674&dpr=1.0"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://staticimg.amarujala.com/assets/images/2020/01/13/750x506/kashi-vishwanath-mandir-varanasi_1578924152.png?w=700&dpr=2.0"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/800px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://upload.wikimedia.org/wikipedia/commons/2/25/Chet_Singh_Ghat_in_Varanasi.jpg"
+                src={img12}
                 alt=""
               />
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { footer } from "../../data/Data";
+import logo1 from "../../../assets/logo1.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -21,7 +22,7 @@ const Footer = () => {
         <div className="container">
           <div className="box">
             <div className="logo">
-              <img src="../images/logo-light.png" alt="" />
+              <img src={logo1} alt="" />
               <h2>Do You Need Help With Anything?</h2>
               <p>
                 Receive updates, hot deals, tutorials, discounts sent straignt
@@ -52,7 +53,7 @@ const Footer = () => {
       <div className="legal">
         <span>
           © 2024 JPN GROUP. Designd & Developed By{" "}
-          <span className="text-[#27ae60]">Ekramul Haque Anik</span>.
+          <span className="text-[#27ae60]">Goinnovior Limited</span>.
         </span>
       </div>
     </>
