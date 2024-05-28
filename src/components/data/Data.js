@@ -65,6 +65,27 @@ export const nav = [
   },
 ];
 
+export const SliderData = [
+  {
+    image: "https://images.unsplash.com/photo-1556159991-9c58d4d73689",
+    title: "Luxury Apartments in New York City",
+    description: "Explore our exclusive listings in the heart of NYC.",
+    buttonText: "View Listings",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1569003334088-936fd183d595",
+    title: "Cozy Beachfront Homes in Malibu",
+    description: "Discover beachfront properties with breathtaking views.",
+    buttonText: "Discover More",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1589829887830-a4c3b2847b7d",
+    title: "Spectacular Villas in Tuscany",
+    description: "Explore the beauty of Tuscany with our luxury villas.",
+    buttonText: "Explore Villas",
+  },
+];
+
 export const featured = [
   {
     cover: "../images/hero/h1.png",

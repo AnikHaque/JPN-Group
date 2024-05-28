@@ -31,15 +31,35 @@ const RecentCard = () => {
 
   return (
     <>
-      <div className="buttons-container">
-        <div className="buttons">
-          <button onClick={() => setFilter("ongoing")}>Ongoing</button>
-          <button onClick={() => setFilter("upcoming")}>Upcoming</button>
-          <button onClick={() => setFilter("completed")}>Completed</button>
-          <button onClick={() => setFilter("all")}>All</button>
+      <div className="buttons-container px-4 lg:px-0">
+        <div className="buttons flex flex-wrap gap-2 lg:gap-4">
+          <button
+            onClick={() => setFilter("ongoing")}
+            className={`btn-filter ${filter === "ongoing" ? "active" : ""}`}
+          >
+            Ongoing
+          </button>
+          <button
+            onClick={() => setFilter("upcoming")}
+            className={`btn-filter ${filter === "upcoming" ? "active" : ""}`}
+          >
+            Upcoming
+          </button>
+          <button
+            onClick={() => setFilter("completed")}
+            className={`btn-filter ${filter === "completed" ? "active" : ""}`}
+          >
+            Completed
+          </button>
+          <button
+            onClick={() => setFilter("all")}
+            className={`btn-filter ${filter === "all" ? "active" : ""}`}
+          >
+            All
+          </button>
         </div>
       </div>
-      <div className="content grid3 mtop">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4 mx-4 lg:mx-0">
         {filteredList().map((val, index) => {
           const { id, cover, category, location, name, price, type } = val;
           return (
@@ -48,53 +68,44 @@ const RecentCard = () => {
               key={index}
               className="card-link"
             >
-              <div className="box shadow">
-                <div className="img">
-                  <img src={cover} alt="" />
+              <div className="box shadow p-4 bg-white rounded-lg">
+                <div className="img mb-4">
+                  <img
+                    src={cover}
+                    alt=""
+                    className="w-full h-auto rounded-lg"
+                  />
                 </div>
                 <div className="text">
-                  <div className="category flex">
+                  <div className="category flex mb-2">
                     <span
-                      style={{
-                        background:
-                          category === "For Rent"
-                            ? "#25b5791a"
-                            : category === "For Sale"
-                            ? "#ff98001a"
-                            : category === "Ongoing"
-                            ? "#007bff1a"
-                            : category === "Upcoming"
-                            ? "#ffc1071a"
-                            : category === "Completed"
-                            ? "#28a7451a"
-                            : "#007bff1a",
-                        color:
-                          category === "For Rent"
-                            ? "#25b579"
-                            : category === "For Sale"
-                            ? "#ff9800"
-                            : category === "Ongoing"
-                            ? "#007bff"
-                            : category === "Upcoming"
-                            ? "#ffc107"
-                            : category === "Completed"
-                            ? "#28a745"
-                            : "#007bff",
-                      }}
+                      className={`rounded px-2 mr-2 ${
+                        category === "For Rent"
+                          ? "bg-green-100 text-green-600"
+                          : category === "For Sale"
+                          ? "bg-orange-100 text-orange-600"
+                          : category === "Ongoing"
+                          ? "bg-blue-100 text-blue-600"
+                          : category === "Upcoming"
+                          ? "bg-yellow-100 text-yellow-600"
+                          : category === "Completed"
+                          ? "bg-teal-100 text-teal-600"
+                          : "bg-blue-100 text-blue-600"
+                      }`}
                     >
                       {category}
                     </span>
                     <i className="fa fa-heart"></i>
                   </div>
-                  <h4>{name}</h4>
-                  <p>
-                    <i className="fa fa-location-dot"></i> {location}
+                  <h4 className="text-lg font-semibold">{name}</h4>
+                  <p className="text-sm mb-2">
+                    <i className="fa fa-location-dot mr-1"></i> {location}
                   </p>
-                </div>
-                <div className="button flex">
-                  <div>
-                    <button className="btn2">{price}</button>{" "}
-                    <label htmlFor="">{type}</label>
+                  <div className="button flex items-center">
+                    <button className="btn2 text-sm mr-2">{price}</button>{" "}
+                    <label htmlFor="" className="text-xs">
+                      {type}
+                    </label>
                   </div>
                 </div>
               </div>

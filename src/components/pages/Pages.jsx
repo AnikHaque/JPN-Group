@@ -36,7 +36,7 @@ const Pages = () => {
             component={PropertyDetails}
           />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
