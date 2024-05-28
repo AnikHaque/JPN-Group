@@ -91,7 +91,7 @@ const Header = () => {
       </header>
 
       {/* Bottom Row for Navigation */}
-      <header className="bg-white shadow-md z-50 pt-3 pb-3">
+      <header className="bg-white shadow-md z-50">
         <div className="container mx-auto flex items-center justify-between h-full py-4 px-4">
           <div className="logo">
             <img src="/images/logo.png" alt="Logo" className="w-32" />
@@ -160,7 +160,7 @@ const Header = () => {
             ))}
           </div>
           <div>
-            <button className="">Brochur</button>
+            <button className="btn1">Brochure</button>
           </div>
         </div>
       </header>
