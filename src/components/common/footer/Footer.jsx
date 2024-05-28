@@ -52,7 +52,7 @@ const Footer = () => {
       <div className="legal">
         <span>
           © 2024 JPN GROUP. Designd & Developed By{" "}
-          <span className="text-[#27ae60]">Goinnovior Limited</span>.
+          <span className="text-[#27ae60]">Ekramul Haque Anik</span>.
         </span>
       </div>
     </>
