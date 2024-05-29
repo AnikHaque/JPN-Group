@@ -9,11 +9,6 @@ import HeroSlider from "./hero/Hero";
 const Home = () => {
   return (
     <>
-      {/* <Hero />
-      <Featured />
-      <Recent />
-      <Awards />
-      <Location /> */}
       <HeroSlider></HeroSlider>
       <Featured />
       <Recent />

@@ -10,3 +10,19 @@
   height: 65px;
   margin: auto;
 }
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover-rotate img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.hover-rotate:hover img {
+  animation: rotate360 1s linear infinite;
+}
