@@ -1,64 +1,79 @@
 import React from "react";
-import { footer } from "../../data/Data";
 import logo1 from "../../../assets/logo1.png";
-import "./footer.css";
-
 const Footer = () => {
   return (
     <>
-      <section className="footerContact">
-        <div className="container">
-          <div className="send flex">
-            <div className="text">
-              <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
-            </div>
-            <button className="btn5 ml-[700px]">Contact Us Today</button>
-          </div>
-        </div>
-      </section>
-
-      <footer className="bg-gray-800">
-        <div className="container py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="box">
-            <div className="logo">
-              <img src={logo1} alt="Logo" />
-              <h2>Do You Need Help With Anything?</h2>
-              <p>
-                Receive updates, hot deals, tutorials, discounts sent straight
-                in your inbox every month
+      <div className="bg-gray-900 text-white py-8 pt-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 lg:w-5/12 px-4 mb-8 md:mb-0">
+              <h3 className="text-xl font-bold">
+                <img src={logo1} className="w-40 mt-[-20px]"></img>
+              </h3>
+              <p className="">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum ea quo ex ullam laboriosam magni totam, facere eos iure
+                voluptate.
               </p>
+              <div className="flex space-x-4 mt-4">
+                <i className="fa-brands fa-facebook text-2xl"></i>
+                <i className="fa-brands fa-twitter text-2xl"></i>
+                <i className="fa-brands fa-instagram text-2xl"></i>
+                <i className="fa-brands fa-linkedin-in text-2xl"></i>
+              </div>
             </div>
-            <div className="input flex">
-              <input
-                type="text"
-                placeholder="Email Address"
-                className="text-black w-2/4 p-2 rounded-l-md focus:outline-none"
-              />
-              <button className="bg-[#27ae60] text-white p-2 rounded-r-md">
-                Subscribe
-              </button>
-            </div>
-          </div>
-
-          {footer.map((val, index) => (
-            <div key={index} className="box">
-              <h3>{val.title}</h3>
-              <ul>
-                {val.text.map((items, idx) => (
-                  <li key={idx}>{items.list}</li>
-                ))}
+            <div className="w-full md:w-1/2 lg:w-3/12 px-4 mb-8 md:mb-0">
+              <h5 className="text-lg font-semibold">Quick Links</h5>
+              <ul className="mt-4 space-y-2">
+                <li className="nav-item">
+                  <a className="hover:text-gray-400 text-white" href="/">
+                    Services
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="hover:text-gray-400 text-white" href="/">
+                    Portfolio
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="hover:text-gray-400 text-white" href="/">
+                    Contact Us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="hover:text-gray-400 text-white" href="/">
+                    Services
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="hover:text-gray-400 text-white" href="/">
+                    Portfolio
+                  </a>
+                </li>
               </ul>
             </div>
-          ))}
+            <div className="w-full lg:w-4/12 px-4">
+              <h5 className="text-lg font-semibold">Contact Info</h5>
+              <p className="mt-4">
+                <i className="fa-solid fa-phone-volume"></i> +92 3121324083
+              </p>
+              <p className="mt-2">
+                <i className="fa-solid fa-envelope"></i>{" "}
+                waleedishfaq1515@gmail.com
+              </p>
+              <p className="mt-2">
+                <i className="fa-solid fa-paper-plane"></i> Abbottabad,
+                Pakistan.
+              </p>
+            </div>
+          </div>
         </div>
-      </footer>
-
-      <div className="legal bg-gray-800 py-4 text-center">
-        <span>
-          © 2024 JPN GROUP. Designed & Developed By{" "}
-          <span className="text-[#27ae60]">Goinnovior Limited</span>.
-        </span>
+      </div>
+      <div className="bg-gray-800 text-gray-400 text-center py-4">
+        <p>
+          Design & Developed By{" "}
+          <span className="text-[#27ae60]">Goinnovior Limited</span>
+        </p>
       </div>
     </>
   );
