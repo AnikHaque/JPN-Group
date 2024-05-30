@@ -92,7 +92,7 @@ const WhatWeDo = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={manpower} className=""></img>
+                  <img src={manpower} className="" alt=""></img>
                 </div>
                 <p className="mb-2 font-bold text-center">
                   Manpower Search & Placement
@@ -103,18 +103,20 @@ const WhatWeDo = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={hr} className=""></img>
+                  <img src={hr} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Human Resources Management</p>
+                <p className="mb-2 font-bold text-center">
+                  Human Resources Management
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={groupRecruitment} className=""></img>
+                  <img src={groupRecruitment} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">
+                <p className="mb-2 font-bold text-center">
                   Bulk/Group Recruitment Services
                 </p>
               </div>
@@ -123,45 +125,53 @@ const WhatWeDo = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={groupAssesment} className=""></img>
+                  <img src={groupAssesment} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Group Assessment Center</p>
+                <p className="mb-2 font-bold text-center">
+                  Group Assessment Center
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={thirdparty} className=""></img>
+                  <img src={thirdparty} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Third Party Contracts</p>
+                <p className="mb-2 font-bold text-center">
+                  Third Party Contracts
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={appraisal} className=""></img>
+                  <img src={appraisal} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Employee Appraisal</p>
+                <p className="mb-2 font-bold text-center">Employee Appraisal</p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={skill} className=""></img>
+                  <img src={skill} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Skill Development and Training</p>
+                <p className="mb-2 font-bold text-center">
+                  Skill Development and Training
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={language} className=""></img>
+                  <img src={language} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Foreign Language Training</p>
+                <p className="mb-2 font-bold text-center">
+                  Foreign Language Training
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>

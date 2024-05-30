@@ -67,7 +67,7 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={headhunting} className=""></img>
+                  <img src={headhunting} className="" alt=""></img>
                 </div>
                 <p className="mb-2 font-bold text-center">
                   Inquiring Recruitment
@@ -78,9 +78,9 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={discussion} className=""></img>
+                  <img src={discussion} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">
+                <p className="mb-2 font-bold text-center">
                   Discussing Employment Condition
                 </p>
               </div>
@@ -89,9 +89,9 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={aggrement} className=""></img>
+                  <img src={aggrement} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">
+                <p className="mb-2 font-bold text-center">
                   Signing Manpower Supply Agreement
                 </p>
               </div>
@@ -100,45 +100,51 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={approval} className=""></img>
+                  <img src={approval} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Authority Approval</p>
+                <p className="mb-2 font-bold text-center">Authority Approval</p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={recruitmentProccess} className=""></img>
+                  <img src={recruitmentProccess} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Recruitment Process</p>
+                <p className="mb-2 font-bold text-center">
+                  Recruitment Process
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={screening} className=""></img>
+                  <img src={screening} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Screening Interview</p>
+                <p className="mb-2 font-bold text-center">
+                  Screening Interview
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={firstMedical} className=""></img>
+                  <img src={firstMedical} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">First Medical Checkup</p>
+                <p className="mb-2 font-bold text-center">
+                  First Medical Checkup
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={finaLinterview} className=""></img>
+                  <img src={finaLinterview} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">
+                <p className="mb-2 font-bold text-center">
                   Final Interview and Recruitment
                 </p>
               </div>
@@ -147,27 +153,29 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={finaLMedical} className=""></img>
+                  <img src={finaLMedical} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Final Medical Checkup</p>
+                <p className="mb-2 font-bold text-center">
+                  Final Medical Checkup
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={visa} className=""></img>
+                  <img src={visa} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Visa Application</p>
+                <p className="mb-2 font-bold text-center">Visa Application</p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={orientation} className=""></img>
+                  <img src={orientation} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">
+                <p className="mb-2 font-bold text-center">
                   Orientation and Foreign Language training
                 </p>
               </div>
@@ -176,27 +184,33 @@ const HowRecruit = () => {
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={overseasEmployee} className=""></img>
+                  <img src={overseasEmployee} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Overseas Employment Management</p>
+                <p className="mb-2 font-bold text-center">
+                  Overseas Employment Management
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={termination} className=""></img>
+                  <img src={termination} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Repatriation or Termination</p>
+                <p className="mb-2 font-bold text-center">
+                  Repatriation or Termination
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
             <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
               <div className="p-5">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full bg-indigo-50">
-                  <img src={backhome} className=""></img>
+                  <img src={backhome} className="" alt=""></img>
                 </div>
-                <p className="mb-2 font-bold">Return to Residence</p>
+                <p className="mb-2 font-bold text-center">
+                  Return to Residence
+                </p>
               </div>
               <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             </div>
