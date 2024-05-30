@@ -1,5 +1,3 @@
-// components/PropertyDetails.js
-
 import React from "react";
 import { useParams } from "react-router-dom";
 import { list } from "../../data/Data";
@@ -82,7 +80,6 @@ const PropertyDetails = () => {
   );
 };
 
-// Function to get color class based on category
 const getColorClass = (category) => {
   switch (category) {
     case "For Rent":

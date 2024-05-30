@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { list } from "../../data/Data";
-import "./RecentCard.css"; // Import your CSS file for RecentCard
+import "./RecentCard.css";
 
 const RecentCard = () => {
-  const [filter, setFilter] = useState("all"); // State to manage the filter
+  const [filter, setFilter] = useState("all");
 
-  // Function to filter properties based on the selected filter
   const filteredList = () => {
     switch (filter) {
       case "ongoing":

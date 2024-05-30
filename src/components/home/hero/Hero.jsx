@@ -9,7 +9,6 @@ const HeroSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    // Typing speed adjustment
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -45,7 +44,6 @@ const HeroSlider = () => {
       bgImage:
         "https://main.wpresidence.net/wp-content/uploads/2024/01/wpresidece-header.webp",
     },
-    // Add more slides as needed
   ];
 
   function PrevArrow(props) {
@@ -74,7 +72,6 @@ const HeroSlider = () => {
     );
   }
 
-  // Typewriter effect hook
   const Typewriter = ({ text }) => {
     const [displayText, setDisplayText] = useState("");
 
