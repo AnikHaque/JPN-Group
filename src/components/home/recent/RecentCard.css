@@ -24,3 +24,32 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+/* Add this to your RecentCard.css */
+.card-link .box {
+  transition: transform 0.3s ease;
+}
+
+.card-link:hover .box {
+  transform: scale(1.05);
+}
+
+.card-link .box img {
+  transition: transform 0.3s ease;
+}
+
+.card-link:hover .box img {
+  transform: scale(1.1);
+}
+
+.btn-filter {
+  @apply px-4 py-2 bg-gray-200 rounded-md text-gray-700;
+}
+
+.btn-filter.active {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-filter:hover {
+  @apply bg-gray-300;
+}
