@@ -5,7 +5,7 @@ import "./Featured.css";
 const FeaturedCard = () => {
   return (
     <>
-      <div className="content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
+      <div className="content grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
         {featured.map((items, index) => (
           <div
             className="box hover-rotate p-4 bg-white rounded-lg shadow-md"
