@@ -17,12 +17,12 @@ const About = () => {
             />
 
             <p>
-              PN MODERN LUCKY CITY is a new horizon of lifestyle. Its objectives
-              to create the new landscape of the city and upgrade the daily life
-              of city dwellers. Multiple families create a community. That is
-              why we introduce various types of community space to meet others.
-              These spaces like children playground, Multipurpose convention
-              hall, amphitheater, etc.
+              JPN MODERN LUCKY CITY is a new horizon of lifestyle. Its
+              objectives to create the new landscape of the city and upgrade the
+              daily life of city dwellers. Multiple families create a community.
+              That is why we introduce various types of community space to meet
+              others. These spaces like children playground, Multipurpose
+              convention hall, amphitheater, etc.
             </p>
             <p>
               People demand safety and security to their family members are sage
