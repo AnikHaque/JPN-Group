@@ -31,7 +31,8 @@ const HeroSlider = () => {
       title: "Search Your Next Home",
       description:
         "Find new & featured properties located in your local city. Find new & featured properties located in your local city. ",
-      buttonText: "Search Now",
+      buttonText: "Get Started",
+      buttonText2: "Search Now",
       bgImage:
         "https://main.wpresidence.net/wp-content/uploads/2024/01/wpresidece-header.webp",
     },
@@ -40,7 +41,8 @@ const HeroSlider = () => {
       title: "Discover Your Dream Property",
       description:
         "Explore thousands of properties in your area. Whether you're looking to buy or rent, find your perfect property here.",
-      buttonText: "View Properties",
+      buttonText: "Get Started",
+      buttonText2: "Search Now",
       bgImage:
         "https://main.wpresidence.net/wp-content/uploads/2024/01/wpresidece-header.webp",
     },
@@ -114,7 +116,7 @@ const HeroSlider = () => {
                     {slide.buttonText}
                   </button>
                   <button className="bg-gray-500 text-white p-4 rounded-md w-52">
-                    {slide.buttonText}
+                    {slide.buttonText2}
                   </button>
                 </div>
               </div>
