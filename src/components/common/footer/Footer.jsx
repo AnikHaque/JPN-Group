@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 lg:w-5/12 px-4 mb-8 md:mb-0">
               <h3 className="text-xl font-bold">
-                <img src={logo1} className="w-40 mt-[-20px]"></img>
+                <img src={logo1} className="w-40 mt-[-20px]" alt=""></img>
               </h3>
               <p className="">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -55,15 +55,15 @@ const Footer = () => {
             <div className="w-full lg:w-4/12 px-4">
               <h5 className="text-lg font-semibold">Contact Info</h5>
               <p className="mt-4">
-                <i className="fa-solid fa-phone-volume"></i> +92 3121324083
+                <i className="fa-solid fa-phone-volume"></i> +97 1525709908
               </p>
               <p className="mt-2">
-                <i className="fa-solid fa-envelope"></i>{" "}
-                waleedishfaq1515@gmail.com
+                <i className="fa-solid fa-envelope"></i> jpnusvc@gmail.com
               </p>
               <p className="mt-2">
-                <i className="fa-solid fa-paper-plane"></i> Abbottabad,
-                Pakistan.
+                <i className="fa-solid fa-paper-plane"></i> House-1007
+                (Level-5), Road-09, Avenue-11, Mirpur DOHS,Dhaka-1216,
+                Bangladesh.
               </p>
             </div>
           </div>

@@ -46,11 +46,11 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <a href="tel:+1234567890" className="flex items-center">
               <FaPhone className="mr-1 text-[#27ae60]" />
-              <span className="text-white ml-2 mr-2">+123 456 7890</span>
+              <span className="text-white ml-2 mr-2">+88 01925507436</span>
             </a>
             <a href="mailto:info@example.com" className="flex items-center">
               <FaEnvelope className="mr-1 text-[#27ae60]" />
-              <span className="text-white ml-2 mr-2">info@example.com</span>
+              <span className="text-white ml-2 mr-2">jpnusvc@gmail.com</span>
             </a>
           </div>
           <div className="flex items-center space-x-4">
