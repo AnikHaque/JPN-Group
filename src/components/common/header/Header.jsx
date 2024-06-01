@@ -50,7 +50,9 @@ const Header = () => {
             </a>
             <a href="mailto:info@example.com" className="flex items-center">
               <FaEnvelope className="mr-1 text-[#27ae60]" />
-              <span className="text-white ml-2 mr-2">jpnusvc@gmail.com</span>
+              <span className="text-white ml-2 mr-2 lowercase">
+                jpnusvc@gmail.com
+              </span>
             </a>
           </div>
           <div className="flex items-center space-x-4">
